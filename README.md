@@ -34,16 +34,19 @@ public class OperationsDemo {
         System.out.println("Division (num1 / num2): " + (num2 != 0 ? (num1 / num2) : "Division by zero error"));
 
         System.out.println("Modulus (num1 % num2): " + (num2 != 0 ? (num1 % num2) : "Division by zero error"));
-
     // Relational Operations
+
 System.out.println("\n--- Relational Operations ---");
 
-System.out.printf("num1 > num2: %b, num1 < num2: %b, num1 == num2: %b%n",
-          num1 > num2, num1 < num2, num1 == num2);
+System.out.printf("num1 > num2: %b, 
+num1 < num2: %b, num1 == num2: %b%n", 
+
+                  num1 > num2, num1 < num2, num1 == num2);
 
 System.out.printf("num1 != num3: %b, num2 >= num3: %b, num3 <= num1: %b%n", 
 
                   num1 != num3, num2 >= num3, num3 <= num1);
+
 
         // Logical Operations
 
